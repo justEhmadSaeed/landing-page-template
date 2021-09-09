@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Hero from '../components/hero';
 import Navbar from '../components/navbar';
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
 					<Navbar />
 				</header>
 				{/* Main Section */}
+				<main className='relative'>
+					<Hero />
+				</main>
 				{/* Footer */}
 			</div>
 		</>

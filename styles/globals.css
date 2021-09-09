@@ -4,3 +4,14 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.btn {
+	@apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-purple {
+	@apply bg-template-purple text-white hover:bg-template-white hover:text-black;
+}
+.btn-white {
+	@apply bg-template-white hover:bg-template-purple hover:text-white;
+}
