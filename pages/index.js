@@ -15,9 +15,9 @@ export default function Home() {
 					<Navbar />
 				</header>
 				{/* Main Section */}
-				<main className='relative'>
+				<section>
 					<Hero />
-				</main>
+				</section>
 				{/* Footer */}
 			</div>
 		</>
