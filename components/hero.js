@@ -1,6 +1,6 @@
 const Hero = () => {
 	return (
-			<div className='relative container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28 w-full'>
+			<section className='relative container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28 w-full'>
 				{/* Content */}
 				<div className='flex flex-1 flex-col items-center lg:items-start'>
 					<h2 className='text-template-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6'>
@@ -30,7 +30,7 @@ const Hero = () => {
 				</div>
 				{/* Rounded Rectangle */}
 				<div className='hidden md:block overflow-hidden bg-template-purple rounded-l-full absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:-right-36'></div>
-			</div>
+			</section>
 	);
 };
 
