@@ -35,6 +35,8 @@ const Features = () => {
 						</button>
 					</div>
 				</div>
+				{/* Rounded Rectangle */}
+				<div className='hidden lg:block overflow-hidden bg-template-purple rounded-r-full absolute h-80 w-1/2 -bottom-24 -left-36'></div>
 			</div>
 		</section>
 	);
