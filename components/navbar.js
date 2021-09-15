@@ -1,7 +1,7 @@
 import { MenuIcon } from '@heroicons/react/outline';
 const Navbar = () => {
 	return (
-		<nav className='container flex items-center py-4 mt-4 sm:mt-12'>
+		<nav className='container flex items-center py-4 mt-4 sm:mt-8'>
 			<div className='py-1 w-32'>
 				<img src='./img/vercel.svg' alt='' />
 			</div>
