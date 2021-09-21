@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Download from '../components/download';
+import FAQ from '../components/faq';
 import Features from '../components/features';
 import Hero from '../components/hero';
 import Navbar from '../components/navbar';
@@ -20,6 +21,7 @@ export default function Home() {
 				<Hero />
 				<Features />
 				<Download />
+				<FAQ />
 				{/* Footer */}
 			</div>
 		</>
