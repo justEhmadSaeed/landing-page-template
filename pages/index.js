@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Contact from '../components/contact';
 import Download from '../components/download';
 import FAQ from '../components/faq';
 import Features from '../components/features';
@@ -22,6 +23,7 @@ export default function Home() {
 				<Features />
 				<Download />
 				<FAQ />
+				<Contact />
 				{/* Footer */}
 			</div>
 		</>
