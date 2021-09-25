@@ -1,29 +1,51 @@
-# Next.js + Tailwind CSS Example
+# Company's Landing Page Template
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<div align="center">
+<strong>
+A clean and simple interface to display your company portfolio - developed in Next.js and tailwind css. Try it for free.
+</strong>
+</div>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<br>
 
-## Preview
+<div align="center">
+	<img src="https://img.shields.io/badge/License-MIT-%230F2A5F" alt="license MIT">
+	
+</div>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## 🏗 How to use
+1. `Fork` the repo or click on the `Use this template` button to create a personal repository with this template.
+2. Install the dependencies with npm or yarn package manager.
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+yarn
 # or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
 
+2. Run the development server with the follwing commands in your terminal.
+
+```bash
+yarn run dev
+# or
+npm run dev
+```
+
+3. Create a production build, ready to deploy.
+
+```bash
+yarn run build
+# or
+npm run build
+```
+
+## ⏯ Preview
+
+![demo preview](assets-github/demo.gif)
+
+## Deploy your own landing page
+
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## 🔑 License
+- MIT © [Ehmad Saeed](https://github.com/justEhmadSaeed)
