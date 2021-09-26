@@ -1,6 +1,7 @@
+<div align="center">
+
 # Company's Landing Page Template
 
-<div align="center">
 <strong>
 A clean and simple interface to display your company portfolio - developed in Next.js and tailwind css. Try it for free.
 </strong>
@@ -14,6 +15,7 @@ A clean and simple interface to display your company portfolio - developed in Ne
 </div>
 
 ## 🏗 How to use
+
 1. `Fork` the repo or click on the `Use this template` button to create a personal repository with this template.
 2. Install the dependencies with npm or yarn package manager.
 
@@ -47,5 +49,10 @@ npm run build
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
+## 👨🏻‍💻 Contributing
+
+Make sure you read the [contributing guidelines](contributing.md) before opening a PR.
+
 ## 🔑 License
+
 - MIT © [Ehmad Saeed](https://github.com/justEhmadSaeed)
