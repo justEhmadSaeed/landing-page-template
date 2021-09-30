@@ -53,6 +53,8 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 Make sure you read the [contributing guidelines](contributing.md) before opening a PR.
 
-## 🔑 License
+## 🔑 License & Conduct
 
 - MIT © [Ehmad Saeed](https://github.com/justEhmadSaeed)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- Design Inspiration: John Komarnicki
