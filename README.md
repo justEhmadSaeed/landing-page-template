@@ -11,7 +11,6 @@ A clean and simple interface to display your company portfolio - developed in Ne
 
 <div align="center">
 	<img src="https://img.shields.io/badge/License-MIT-%230F2A5F" alt="license MIT">
-	
 </div>
 
 ## 🏗 How to use
