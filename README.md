@@ -15,7 +15,7 @@ A clean and simple interface to display your company portfolio - developed in Ne
 
 ## 🏗 How to use
 
-1. `Fork` the repo or click on the `Use this template` button to create a personal repository with this template.
+1. `Fork` the repo to create a personal repository with this template.
 2. Install the dependencies with npm or yarn package manager.
 
 ```bash
