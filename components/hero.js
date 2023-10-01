@@ -19,7 +19,7 @@ const Hero = () => {
 						target='_blank'
 						rel='noopener noreferrer'
 					>
-						<button type='button' className='btn btn-purple flex items-center gap-4'>
+						<button type='button' className='btn btn-purple flex items-center gap-4 hover:border-cyan-400 hover:border-[1px]'>
 							Get it on GitHub
 							<Image
 								src='/img/logo-github.svg'

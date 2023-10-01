@@ -2,11 +2,11 @@ import { Accordion } from './accordian';
 
 const FAQ = () => {
 	return (
-		<section className='bg-template-white py-20'>
+		<section className='bg-template-white py-20 dark:bg-gray-800 dark:text-gray-400'>
 			<div className='container'>
 				{/* Heading */}
 				<div className='sm:w-3/4 lg:w-5/12 mx-auto px-2'>
-					<h1 className='text-3xl text-center text-template-blue'>
+					<h1 className='text-3xl text-center text-template-blue dark:text-template-purple'>
 						Frequently Asked Questions
 					</h1>
 					<p className='text-center text-template-grey mt-4'>

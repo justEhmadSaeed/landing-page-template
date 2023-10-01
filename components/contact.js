@@ -1,6 +1,6 @@
 const Contact = () => {
 	return (
-		<section className='bg-template-purple text-white py-20'>
+		<section className='bg-template-purple text-white py-20 dark:bg-gray-700' id="contact">
 			<div className='container'>
 				<div className='sm:w-3/4 lg:w-1/2 mx-auto'>
 					<p className='font-light uppercase text-center mb-8'>
