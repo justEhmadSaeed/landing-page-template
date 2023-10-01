@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Hero = () => {
 	return (
-		<section className='relative container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28 w-full'>
+		<section className='relative container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28 w-full dark:bg-gray-900'>
 			{/* Content */}
 			<div className='flex flex-1 flex-col items-center lg:items-start'>
-				<h2 className='text-template-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6'>
+				<h2 className='text-template-blue text-3xl md:text-4xl lg:text-5xl dark:text-template-purple text-center lg:text-left mb-6'>
 					A Simple Landing Page
 				</h2>
 				<p className='text-template-grey text-lg text-center lg:text-left mb-6'>

@@ -17,7 +17,7 @@ const Navbar = () => {
 	  
 
 	return (
-		<nav className='container flex items-center py-4 mt-4 sm:mt-8'>
+		<nav className='container flex items-center py-4 mt-4 sm:mt-8 '>
 			<div className='py-1 w-32'>
 				<img src='./img/vercel.svg' className='cursor-pointer' onClick={() => window.location.reload(false)} alt='' />
 			</div>
@@ -28,19 +28,19 @@ const Navbar = () => {
 					src='./img/moon.svg'/> */}
 
         <div className="">
-          {currentTheme === 'dark' ? (
+          {currentTheme === 'light' ? (
             <button
               className="w-16  p-2"
-              onClick={() => setTheme('light')}
+              onClick={() => setTheme('dark')}
             >
-              <Image src="./img/sun.svg" alt="logo" width={40} height={50} />
+              <Image src="./img/moon.svg" alt="logo" width={40} height={50} />
             </button>
           ) : (
             <button
               className="w-16  p-2 "
-              onClick={() => setTheme('dark')}
+              onClick={() => setTheme('light')}
             >
-              <Image src="./img/moon.svg" alt="logo" height={50} width={32}  />
+              <Image src="./img/sun.svg" alt="logo" height={50} width={32}  />
             </button>
           )}
         </div>
