@@ -21,7 +21,7 @@ export default function Home() {
 					content='A Next.js company landing page template'
 				/>
 			</Head>
-			<div className='font-Poppins'>
+			<div className='font-Poppins dark:bg-gray-900'>
 				{/* Header */}
 				<header>
 					<Navbar />
