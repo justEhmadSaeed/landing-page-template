@@ -1,9 +1,9 @@
 const Features = () => {
 	return (
-		<section className='bg-template-white py-20 mt-20 lg:mt-60'>
+		<section className='bg-template-white dark:bg-gray-800 py-20 mt-20 lg:mt-60' id="feature">
 			{/* Heading */}
 			<div className='sm:w-3/4 lg:w-5/12 mx-auto px-2'>
-				<h1 className='text-3xl text-center text-template-blue'>
+				<h1 className='text-3xl text-center text-template-blue dark:text-white'>
 					Features
 				</h1>
 				<p className='text-center text-template-grey mt-4'>
@@ -22,7 +22,7 @@ const Features = () => {
 						/>
 					</div>
 					<div className='flex flex-1 flex-col items-center lg:items-start'>
-						<h1 className='text-3xl text-template-blue'>
+						<h1 className='text-3xl text-template-blue dark:text-template-purple'>
 							Fork in One Click
 						</h1>
 						<p className='text-template-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full'>
@@ -30,7 +30,7 @@ const Features = () => {
 							Our simple Codebase gives you complete control over how
 							you manage your favourite sites.
 						</p>
-						<button type='button' className='btn btn-purple'>
+						<button type='button' className='btn btn-purple hover:border-[1px] hover:border-cyan-400'>
 							More Info
 						</button>
 					</div>
@@ -50,15 +50,15 @@ const Features = () => {
 							alt=''
 						/>
 					</div>
-					<div className='flex flex-1 flex-col items-center lg:items-start'>
-						<h1 className='text-3xl text-template-blue'>
+					<div className='flex flex-1 flex-col items-center lg:items-start '>
+						<h1 className='text-3xl text-template-blue dark:text-template-purple'>
 							Customize what you need
 						</h1>
 						<p className='text-template-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full'>
 							Customize the landing page with User-Friendly
 							Tailwindcss and Next.js Configurations.
 						</p>
-						<button type='button' className='btn btn-purple'>
+						<button type='button' className='btn btn-purple hover:border-[1px] hover:border-cyan-400'>
 							More Info
 						</button>
 					</div>

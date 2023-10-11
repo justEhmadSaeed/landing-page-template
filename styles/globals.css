@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+	scroll-behavior: smooth;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 .btn {
@@ -14,4 +17,9 @@
 }
 .btn-white {
 	@apply bg-template-white hover:bg-template-purple hover:text-white;
+}
+@layer base{
+    body {
+        @apply dark:bg-gray-900 bg-white dark:text-gray-600
+    }
 }

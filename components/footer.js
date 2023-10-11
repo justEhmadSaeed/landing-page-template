@@ -5,9 +5,9 @@ const Footer = () => {
 				<div className='flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12'>
 					<img src='/img/vercel.svg' alt='Company Logo' width='100' />
 					<ul className='flex text-white uppercase gap-12 text-xs'>
-						<li className='cursor-pointer'>Features</li>
-						<li className='cursor-pointer'>Pricing</li>
-						<li className='cursor-pointer'>Contact</li>
+					<a href="#feature" className='cursor-pointer px-2 text-base  p-1 rounded-lg hover:scale-105 ease-in-out duration-200 hover:text-gray-600  '>Features</a>
+				<button className='uppercase cursor-pointer px-2 text-base  p-1 rounded-lg hover:scale-105 ease-in-out duration-200 hover:text-gray-600 '>Pricing</button>
+				<button className='uppercase cursor-pointer px-2 text-base  p-1 rounded-lg hover:scale-105 ease-in-out duration-200 hover:text-gray-600 '>Contact</button>
 					</ul>
 				</div>
 				<div className='flex gap-10 mt-12 md:mt-0'>

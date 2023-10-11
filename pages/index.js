@@ -7,6 +7,7 @@ import Footer from '../components/footer';
 import Hero from '../components/hero';
 import Navbar from '../components/navbar';
 
+
 export default function Home() {
 	return (
 		<>
@@ -20,7 +21,7 @@ export default function Home() {
 					content='A Next.js company landing page template'
 				/>
 			</Head>
-			<div className='font-Poppins'>
+			<div className='font-Poppins dark:bg-gray-900'>
 				{/* Header */}
 				<header>
 					<Navbar />
