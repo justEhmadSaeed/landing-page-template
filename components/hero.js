@@ -1,6 +1,9 @@
 import Image from 'next/image';
+import { useState } from 'react';
 
 const Hero = () => {
+	const [ hover,setHover ] = useState(false);
+
 	return (
 		<section className='relative container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:mt-28 w-full dark:bg-gray-900'>
 			{/* Content */}
@@ -19,10 +22,10 @@ const Hero = () => {
 						target='_blank'
 						rel='noopener noreferrer'
 					>
-						<button type='button' className='btn btn-purple flex items-center gap-4 hover:border-cyan-400 hover:border-[1px]'>
+						<button onMouseOver={()=>setHover(true)} onMouseLeave={()=>setHover(false)} type='button' className='btn btn-purple flex items-center gap-4 hover:border-cyan-400 hover:border-[1px]'>
 							Get it on GitHub
-							<Image
-								src='/img/logo-github.svg'
+							<Image 							
+								src={hover ? "/img/logo-github-black.svg" : "/img/logo-github.svg"}
 								width={30}
 								height={30}
 								alt='GitHub Logo'
