@@ -6,7 +6,8 @@ import {
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
-import vercelIcom from '../public/img/vercel.svg';
+import vercelIcon from '../public/img/vercel.svg';
+import vercelIcon2 from '../public/img/vercel2.svg';
 
 const Navbar = () => {
 	const { systemTheme, theme, setTheme } = useTheme();
@@ -22,12 +23,23 @@ const Navbar = () => {
 	return (
 		<nav className='container flex items-center py-4 mt-4 sm:mt-8 '>
 			<div className='py-1 w-32'>
-				<Image
-					src={vercelIcom}
+			{
+					currentTheme === "light" ? (
+					<Image
+					src={vercelIcon}
 					className='cursor-pointer'
 					onClick={() => window.location.reload(false)}
 					alt=''
 				/>
+					) : (
+					<Image
+					src={vercelIcon2}
+					className='cursor-pointer'
+					onClick={() => window.location.reload(false)}
+					alt=''
+					/>
+					)
+				}
 			</div>
 			<ul className='hidden sm:flex flex-1 justify-end items-center gap-10 text-landing-blue uppercase'>
 				<div>
